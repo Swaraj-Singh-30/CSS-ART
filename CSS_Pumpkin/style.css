@@ -1,0 +1,108 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background: rgb(225, 236, 65);
+}
+
+.pumpkin{
+    position: absolute;
+    height: 33vmin;
+    width: 25vmin;
+    border-radius: 50%;
+    transform: translate(95vmin, 33vmin);
+    background-color: orange;
+    border: 0.1vmax solid rgba(0, 0, 0, 0.541);
+    z-index: 1;
+}
+
+.pumpkin2{
+    height: 33vmin;
+    width: 25vmin;
+    border-radius: 50%;
+    transform: translate(86vmin, 33vmin);
+    background-color: orange;
+    z-index: 0;
+}
+
+.pumpkin3{
+    height: 33vmin;
+    width: 25vmin;
+    border-radius: 50%;
+    transform: translate(102vmin, 0vmin);
+    background-color: orange;
+    z-index: 0;
+}
+
+.stalk{
+    height: 6vmin;
+    width: 3vmin;
+    border-radius: 2vmin 2vmin 0vmin 0vmin;
+    transform: translate(106vmin, -37vmin);
+    background-color: rgb(0, 255, 85);
+    z-index: 0;
+}
+
+.e1{
+    height: 6vmin;
+    width: 4vmin;
+    border-radius: 50%;
+    transform: translate(101vmin, -31vmin);
+    background-color: black;
+    z-index: 2;
+    position: absolute;
+}
+
+.e2{
+    height: 6vmin;
+    width: 4vmin;
+    border-radius: 50%;
+    transform: translate(111vmin, -31vmin);
+    background-color: black;
+    z-index: 2;
+    position: absolute;
+}
+
+.nose{
+    width: 0;
+    height: 0;
+    border-left: 2vmin solid transparent;
+    border-right: 2vmin solid transparent;
+    border-bottom: 4vmin solid black;
+    transform: translate(106vmin, -25vmin);
+    position: absolute;
+    z-index: 3;
+
+}
+
+.mouth{
+    height: 6vmin;
+    width: 14vmin;
+    border-radius: 0;
+    transform: translate(101vmin, -19vmin);
+    background-color: black;
+    z-index: 2;
+    position: absolute;
+}
+
+.t1{
+    height: 2vmin;
+    width: 2vmin;
+    border-radius: 0;
+    transform: translate(103vmin, -19vmin);
+    background-color: rgb(255, 255, 255);
+    z-index: 3;
+    position: absolute;
+}
+
+.t2{
+    height: 2vmin;
+    width: 2vmin;
+    border-radius: 0;
+    transform: translate(110vmin, -15vmin);
+    background-color: rgb(255, 255, 255);
+    z-index: 3;
+    position: absolute;
+}
