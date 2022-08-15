@@ -1,3 +1,3 @@
 # CSS-ART
 
-Just trying to debug it
+This repo will cover the css art I had made and will make
